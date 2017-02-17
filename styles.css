@@ -1,13 +1,33 @@
+body {
+	font-family: Helvetica, sans-serif;
+	border: solid 0.5em black;
+}
+
 nav {
-	color: #FFB4B0;
+	background-color: #FFB4B0;
+
+
 }
 
 .input {
 	width: 20%;
+	background-color: #4DD7FA;
+	float: left;
+	border: solid 0.5em black;
+
+
 }
 
 .musiclist {
 	width: 70%;
+	background-color: #FEFAC0;
+	float: right;
+	border: solid 0.5em black;
+
+}
+
+.songname {
+	color: #785616;
 }
 
 /*10% padding*/

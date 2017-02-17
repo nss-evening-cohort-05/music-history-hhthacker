@@ -14,20 +14,66 @@
 	</nav>
 	<div class="input">
 		<fieldset>
-			<!-- slider -->
+			<input type="range" id="songlength" min="" max="" step="">
 		</fieldset>
 		<fieldset>
-			<input type="" class="artist" value="Options"></input>
-			<input type="" class="album" value="Options"></input>
+			<legend>Artist:</legend>
+			<select name ="artist">
+				<option value="Option">Options</option>
+				<option value="Radiohead">Radiohead</option>
+				<option value="">Beach House</option>
+				<option value="">Drake</option>
+				<option value="">Beyonce</option>
+				<option value="">Michael Jackson</option>
+			</select>
+			<legend>Album:</legend>
+			<select name ="album">
+				<option value="Option">Options</option>
+				<option value="">Ok Computer</option>
+				<option value="">Bloom</option>
+				<option value="">Views</option>
+				<option value="">Lemonade</option>
+				<option value="">Bad</option>
+			</select>
 		</fieldset>
 		<fieldset>
-			<!-- checkboxes: Rock, Pop, Blues, Classical, Jazz, Hip Hop -->
+			<input type="checkbox">Rock</input>
+			<input type="checkbox">Pop</input>
+			<input type="checkbox">Blues</input>
+			<input type="checkbox">Classical</input>
+			<input type="checkbox">Jazz</input>
+			<input type="checkbox">Hip Hop</input>
 		</fieldset>
 		<fieldset>
 			<button>Filter</button>
 		</fieldset>
 	</div>
-	<div class="musiclist"></div>
+	<div class="musiclist">
+		<h1 class="songname">Song Name</h1>
+		<ul>
+			<li>Artist Name</li>
+			<li>Album Name</li>
+			<li>Genre</li>
+		</ul>
+		<h1 class="songname">Song Name</h1>
+		<ul>
+			<li>Artist Name</li>
+			<li>Album Name</li>
+			<li>Genre</li>
+		</ul>
+		<h1 class="songname">Song Name</h1>
+		<ul>
+			<li>Artist Name</li>
+			<li>Album Name</li>
+			<li>Genre</li>
+		</ul>
+		<h1 class="songname">Song Name</h1>
+		<ul>
+			<li>Artist Name</li>
+			<li>Album Name</li>
+			<li>Genre</li>
+		</ul>
+	</div>
 
 	<script src="playlist.js" type="text/javascript"></script>
 </body>
