@@ -56,3 +56,9 @@ button {
 	font-weight: 400;
 	text-indent: 1em;
 }
+
+.addmusicfield {
+	margin: auto;
+	display: block;
+	width: 50%;
+}
