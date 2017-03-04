@@ -1,0 +1,64 @@
+body {
+	font-family: Helvetica, sans-serif;
+}
+
+nav {
+	background-color: #FFB4B0;
+	border: solid 0.25em black;
+}
+
+li {
+	display: inline-block;
+}
+
+li + li::before {
+    content: "  |  ";
+}
+
+.input {
+	width: 20%;
+	background-color: #4DD7FA;
+	float: left;
+	border: solid 0.25em black;
+	margin: 15px;
+
+
+}
+
+.genreleft {
+	float: left;
+	display: inline-block;
+}
+
+.genreright {
+	float: right;
+	display: inline-block;
+
+}
+
+button {
+	border-radius: 12%;
+	border: solid 0.25em black;
+	width: 10em;
+}
+
+.musiclist {
+	width: 70%;
+	background-color: #FEFAC0;
+	float: right;
+	border: solid 0.25em black;
+	margin: 15px;
+
+}
+
+.songname {
+	color: #785616;
+	font-weight: 400;
+	text-indent: 1em;
+}
+
+.addmusicfield {
+	margin: auto;
+	display: block;
+	width: 50%;
+}

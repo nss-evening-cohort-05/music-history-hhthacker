@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Music History!</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<nav>
+		<ul>
+			<li>View Music</li>
+			<li><a href="#">Add Music</a></li>
+			<li><a href="#">Profile</a></li>
+		</ul>
+	</nav>
+	<div class="input">
+			<br>Song Length:<br>
+			<input type="range" id="songlength" min="" max="" step="">
+
+			<br>Artist:<br>
+			<select name="artist">
+				<option value="Option">Options</option>
+				<option value="Radiohead">Radiohead</option>
+				<option value="">Beach House</option>
+				<option value="">Drake</option>
+				<option value="">Beyonce</option>
+				<option value="">Michael Jackson</option>
+			</select>
+			<br>Album:<br>
+			<select name="album">
+				<option value="Option">Options</option>
+				<option value="">Ok Computer</option>
+				<option value="">Bloom</option>
+				<option value="">Views</option>
+				<option value="">Lemonade</option>
+				<option value="">Bad</option>
+			</select>
+			<br>Genre:<br>
+
+			<label><input type="checkbox" name="rock">Rock</input></label>
+			<label><input type="checkbox">Classical</input></label><br>
+			<label><input type="checkbox">Pop</input></label>
+			<label><input type="checkbox">Jazz</input></label><br>
+			<label><input type="checkbox">Blues</input></label>
+			<label><input type="checkbox">Hip Hop</input></label><br>
+			<button>Filter</button>
+	</div>
+	<div class="musiclist" id="songInfo">
+
+	</div>
+	<script src="songs.js" type="text/javascript"></script>
+	<script src="playlist.js" type="text/javascript"></script>
+</body>
+</html>
