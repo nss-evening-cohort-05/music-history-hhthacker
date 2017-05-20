@@ -21,8 +21,6 @@ li + li::before {
 	float: left;
 	border: solid 0.25em black;
 	margin: 15px;
-
-
 }
 
 .genreleft {
